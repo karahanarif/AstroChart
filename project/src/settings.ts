@@ -119,10 +119,10 @@ const settings: Settings = {
   SYMBOL_SCALE: 1,
 
   // BG color
-  COLOR_BACKGROUND: '#fff',
+  COLOR_BACKGROUND: 'transparent',
 
   // Color of planet's symbols
-  POINTS_COLOR: '#000',
+  POINTS_COLOR: '#ffffffff',
 
   // Size of description text next to the planet: angle, retrograde, dignities, ...
   POINTS_TEXT_SIZE: 8,
@@ -131,7 +131,7 @@ const settings: Settings = {
   POINTS_STROKE: 1.8,
 
   // Font color of signs symbols
-  SIGNS_COLOR: '#000',
+  SIGNS_COLOR: '#ffffffff',
 
   // Signs strength of lines
   SIGNS_STROKE: 1.5,
@@ -176,19 +176,19 @@ const settings: Settings = {
   ID_BG: 'bg',
 
   // Color of circles in charts
-  CIRCLE_COLOR: '#333',
+  CIRCLE_COLOR: '#ffffffdb',
 
   // Circles strength of lines
   CIRCLE_STRONG: 2,
 
   // Color of lines in charts
-  LINE_COLOR: '#333',
+  LINE_COLOR: '#ffffffdb',
 
   // radius / INDOOR_CIRCLE_RADIUS_RATIO
   INDOOR_CIRCLE_RADIUS_RATIO: 2,
 
   // radius - radius/INNER_CIRCLE_RADIUS_RATIO
-  INNER_CIRCLE_RADIUS_RATIO: 8,
+  INNER_CIRCLE_RADIUS_RATIO: 7,
 
   // ( radius / INNER_CIRCLE_RADIUS_RATIO ) / RULER_RADIUS
   RULER_RADIUS: 4,
@@ -216,7 +216,7 @@ const settings: Settings = {
   SYMBOL_MC: 'Mc',
   SYMBOL_IC: 'Ic',
 
-  SYMBOL_AXIS_FONT_COLOR: '#333',
+  SYMBOL_AXIS_FONT_COLOR: '#ffffffff',
   SYMBOL_AXIS_STROKE: 1.6,
 
   // Cusps
@@ -235,7 +235,7 @@ const settings: Settings = {
 
   // Cusps strength of lines
   CUSPS_STROKE: 1,
-  CUSPS_FONT_COLOR: '#000',
+  CUSPS_FONT_COLOR: '#ffffffff',
 
   // Signs
   SYMBOL_ARIES: 'Aries',
@@ -253,19 +253,19 @@ const settings: Settings = {
   SYMBOL_SIGNS: ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces'],
 
   // http://www.rapidtables.com/web/color/html-color-codes.htm
-  COLOR_ARIES: '#FF4500',
-  COLOR_TAURUS: '#8B4513',
-  COLOR_GEMINI: '#87CEEB',
-  COLOR_CANCER: '#27AE60',
-  COLOR_LEO: '#FF4500',
-  COLOR_VIRGO: '#8B4513',
-  COLOR_LIBRA: '#87CEEB',
-  COLOR_SCORPIO: '#27AE60',
-  COLOR_SAGITTARIUS: '#FF4500',
-  COLOR_CAPRICORN: '#8B4513',
-  COLOR_AQUARIUS: '#87CEEB',
-  COLOR_PISCES: '#27AE60',
-  COLORS_SIGNS: ['#FF4500', '#8B4513', '#87CEEB', '#27AE60', '#FF4500', '#8B4513', '#87CEEB', '#27AE60', '#FF4500', '#8B4513', '#87CEEB', '#27AE60'],
+  COLOR_ARIES: '#004546',
+  COLOR_TAURUS: '#4C4452',
+  COLOR_GEMINI: '#005A92',
+  COLOR_CANCER: '#6A1D59',
+  COLOR_LEO: '#004546',
+  COLOR_VIRGO: '#4C4452',
+  COLOR_LIBRA: '#005A92',
+  COLOR_SCORPIO: '#6A1D59',
+  COLOR_SAGITTARIUS: '#004546',
+  COLOR_CAPRICORN: '#4C4452',
+  COLOR_AQUARIUS: '#005A92',
+  COLOR_PISCES: '#6A1D59',
+  COLORS_SIGNS: ['#004546', '#4C4452', '#005A92', '#6A1D59', '#004546', '#4C4452', '#005A92', '#6A1D59', '#004546', '#4C4452', '#005A92', '#6A1D59'],
 
   CUSTOM_SYMBOL_FN: null,
 
@@ -284,9 +284,9 @@ const settings: Settings = {
   // Aspects
   ASPECTS: {
     conjunction: { degree: 0, orbit: 10, color: 'transparent' },
-    square: { degree: 90, orbit: 8, color: '#FF4500' },
-    trine: { degree: 120, orbit: 8, color: '#27AE60' },
-    opposition: { degree: 180, orbit: 10, color: '#27AE60' }
+    square: { degree: 90, orbit: 8, color: '#AD009C' },
+    trine: { degree: 120, orbit: 8, color: '#00A6A0' },
+    opposition: { degree: 180, orbit: 10, color: '#A8274C' }
   },
 
   // Dignities
